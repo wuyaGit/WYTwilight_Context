@@ -1,0 +1,46 @@
+PODS:
+  - CryptoSwift (1.3.8)
+  - Kingfisher (6.2.1)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - SnapKit (5.0.1)
+  - Toast-Swift (5.0.1)
+  - WYTwilight_Context (0.0.1):
+    - WYUtilCore
+  - WYUtilCore (0.0.1):
+    - CryptoSwift
+    - Kingfisher
+    - NVActivityIndicatorView
+    - SnapKit
+    - Toast-Swift
+
+DEPENDENCIES:
+  - WYTwilight_Context (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CryptoSwift
+    - Kingfisher
+    - NVActivityIndicatorView
+    - SnapKit
+    - Toast-Swift
+  https://github.com/wuyaGit/WYTwilightSpecs.git:
+    - WYUtilCore
+
+EXTERNAL SOURCES:
+  WYTwilight_Context:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CryptoSwift: 01b0f0cba1d5c212e5a335ff6c054fb75a204f00
+  Kingfisher: e71c6fac2aebb1262888cabc2cb13d313362a48f
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  WYTwilight_Context: 08f44f2c97cdd060d0474b29e48a715635fa746b
+  WYUtilCore: 7e6c916ed63c68ffe812749e1924359d9d8070fc
+
+PODFILE CHECKSUM: 54514658b56b88706c7347da1054fe18eeef2ac7
+
+COCOAPODS: 1.10.1

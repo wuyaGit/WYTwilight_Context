@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'  # 官方库
+source 'https://github.com/wuyaGit/WYTwilightSpecs.git'   # 私有库
+
+target 'WYTwilight_Context_Example' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for WYTwilight_Context_Example
+  pod 'WYTwilight_Context', :path => '../'
+
+  target 'WYTwilight_Context_ExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

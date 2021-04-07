@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		227105A4991C6929FD9A688F /* Pods_WYTwilight_Context_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFACB662F6A234C71D05649 /* Pods_WYTwilight_Context_Example.framework */; };
+		B540A4FBB788BF226AD12EA1 /* Pods_WYTwilight_Context_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40258464FC06B14BE04715E3 /* Pods_WYTwilight_Context_ExampleTests.framework */; };
+		CE331B02261DA21300FE644C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE331B01261DA21300FE644C /* AppDelegate.swift */; };
+		CE331B04261DA21300FE644C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE331B03261DA21300FE644C /* SceneDelegate.swift */; };
+		CE331B06261DA21300FE644C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE331B05261DA21300FE644C /* ViewController.swift */; };
+		CE331B09261DA21300FE644C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE331B07261DA21300FE644C /* Main.storyboard */; };
+		CE331B0B261DA21500FE644C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE331B0A261DA21500FE644C /* Assets.xcassets */; };
+		CE331B0E261DA21500FE644C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE331B0C261DA21500FE644C /* LaunchScreen.storyboard */; };
+		CE331B19261DA21500FE644C /* WYTwilight_Context_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE331B18261DA21500FE644C /* WYTwilight_Context_ExampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE331B15261DA21500FE644C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE331AF6261DA21300FE644C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE331AFD261DA21300FE644C;
+			remoteInfo = WYTwilight_Context_Example;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40258464FC06B14BE04715E3 /* Pods_WYTwilight_Context_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYTwilight_Context_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CFACB662F6A234C71D05649 /* Pods_WYTwilight_Context_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYTwilight_Context_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C457EFF82E0D4A3D205EE8A /* Pods-WYTwilight_Context_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYTwilight_Context_Example.debug.xcconfig"; path = "Target Support Files/Pods-WYTwilight_Context_Example/Pods-WYTwilight_Context_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B5E231AA68F8C799216729A9 /* Pods-WYTwilight_Context_ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYTwilight_Context_ExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-WYTwilight_Context_ExampleTests/Pods-WYTwilight_Context_ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE331AFE261DA21300FE644C /* WYTwilight_Context_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYTwilight_Context_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE331B01261DA21300FE644C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE331B03261DA21300FE644C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE331B05261DA21300FE644C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE331B08261DA21300FE644C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE331B0A261DA21500FE644C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE331B0D261DA21500FE644C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE331B0F261DA21500FE644C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE331B14261DA21500FE644C /* WYTwilight_Context_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYTwilight_Context_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE331B18261DA21500FE644C /* WYTwilight_Context_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYTwilight_Context_ExampleTests.swift; sourceTree = "<group>"; };
+		CE331B1A261DA21500FE644C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8923762EBCE15B6E9914A95 /* Pods-WYTwilight_Context_ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYTwilight_Context_ExampleTests.release.xcconfig"; path = "Target Support Files/Pods-WYTwilight_Context_ExampleTests/Pods-WYTwilight_Context_ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		E341F26C478381A9F24A4807 /* Pods-WYTwilight_Context_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYTwilight_Context_Example.release.xcconfig"; path = "Target Support Files/Pods-WYTwilight_Context_Example/Pods-WYTwilight_Context_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE331AFB261DA21300FE644C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227105A4991C6929FD9A688F /* Pods_WYTwilight_Context_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE331B11261DA21500FE644C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B540A4FBB788BF226AD12EA1 /* Pods_WYTwilight_Context_ExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90B9CBD5B0C7D80FF6C5C401 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C457EFF82E0D4A3D205EE8A /* Pods-WYTwilight_Context_Example.debug.xcconfig */,
+				E341F26C478381A9F24A4807 /* Pods-WYTwilight_Context_Example.release.xcconfig */,
+				B5E231AA68F8C799216729A9 /* Pods-WYTwilight_Context_ExampleTests.debug.xcconfig */,
+				D8923762EBCE15B6E9914A95 /* Pods-WYTwilight_Context_ExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE331AF5261DA21300FE644C = {
+			isa = PBXGroup;
+			children = (
+				CE331B00261DA21300FE644C /* WYTwilight_Context_Example */,
+				CE331B17261DA21500FE644C /* WYTwilight_Context_ExampleTests */,
+				CE331AFF261DA21300FE644C /* Products */,
+				90B9CBD5B0C7D80FF6C5C401 /* Pods */,
+				F39512D0E10349D1F8085460 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE331AFF261DA21300FE644C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE331AFE261DA21300FE644C /* WYTwilight_Context_Example.app */,
+				CE331B14261DA21500FE644C /* WYTwilight_Context_ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE331B00261DA21300FE644C /* WYTwilight_Context_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CE331B01261DA21300FE644C /* AppDelegate.swift */,
+				CE331B03261DA21300FE644C /* SceneDelegate.swift */,
+				CE331B05261DA21300FE644C /* ViewController.swift */,
+				CE331B07261DA21300FE644C /* Main.storyboard */,
+				CE331B0A261DA21500FE644C /* Assets.xcassets */,
+				CE331B0C261DA21500FE644C /* LaunchScreen.storyboard */,
+				CE331B0F261DA21500FE644C /* Info.plist */,
+			);
+			path = WYTwilight_Context_Example;
+			sourceTree = "<group>";
+		};
+		CE331B17261DA21500FE644C /* WYTwilight_Context_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE331B18261DA21500FE644C /* WYTwilight_Context_ExampleTests.swift */,
+				CE331B1A261DA21500FE644C /* Info.plist */,
+			);
+			path = WYTwilight_Context_ExampleTests;
+			sourceTree = "<group>";
+		};
+		F39512D0E10349D1F8085460 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CFACB662F6A234C71D05649 /* Pods_WYTwilight_Context_Example.framework */,
+				40258464FC06B14BE04715E3 /* Pods_WYTwilight_Context_ExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE331AFD261DA21300FE644C /* WYTwilight_Context_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE331B28261DA21500FE644C /* Build configuration list for PBXNativeTarget "WYTwilight_Context_Example" */;
+			buildPhases = (
+				048478D98D145580EF3CACD2 /* [CP] Check Pods Manifest.lock */,
+				CE331AFA261DA21300FE644C /* Sources */,
+				CE331AFB261DA21300FE644C /* Frameworks */,
+				CE331AFC261DA21300FE644C /* Resources */,
+				2255C120CBFEC5B47274CC78 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYTwilight_Context_Example;
+			productName = WYTwilight_Context_Example;
+			productReference = CE331AFE261DA21300FE644C /* WYTwilight_Context_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE331B13261DA21500FE644C /* WYTwilight_Context_ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE331B2B261DA21500FE644C /* Build configuration list for PBXNativeTarget "WYTwilight_Context_ExampleTests" */;
+			buildPhases = (
+				30C5967CA02639B64DDBDD8A /* [CP] Check Pods Manifest.lock */,
+				CE331B10261DA21500FE644C /* Sources */,
+				CE331B11261DA21500FE644C /* Frameworks */,
+				CE331B12261DA21500FE644C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE331B16261DA21500FE644C /* PBXTargetDependency */,
+			);
+			name = WYTwilight_Context_ExampleTests;
+			productName = WYTwilight_Context_ExampleTests;
+			productReference = CE331B14261DA21500FE644C /* WYTwilight_Context_ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE331AF6261DA21300FE644C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CE331AFD261DA21300FE644C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CE331B13261DA21500FE644C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CE331AFD261DA21300FE644C;
+					};
+				};
+			};
+			buildConfigurationList = CE331AF9261DA21300FE644C /* Build configuration list for PBXProject "WYTwilight_Context_Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE331AF5261DA21300FE644C;
+			productRefGroup = CE331AFF261DA21300FE644C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE331AFD261DA21300FE644C /* WYTwilight_Context_Example */,
+				CE331B13261DA21500FE644C /* WYTwilight_Context_ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE331AFC261DA21300FE644C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE331B0E261DA21500FE644C /* LaunchScreen.storyboard in Resources */,
+				CE331B0B261DA21500FE644C /* Assets.xcassets in Resources */,
+				CE331B09261DA21300FE644C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE331B12261DA21500FE644C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		048478D98D145580EF3CACD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WYTwilight_Context_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2255C120CBFEC5B47274CC78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WYTwilight_Context_Example/Pods-WYTwilight_Context_Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WYTwilight_Context_Example/Pods-WYTwilight_Context_Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WYTwilight_Context_Example/Pods-WYTwilight_Context_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30C5967CA02639B64DDBDD8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WYTwilight_Context_ExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE331AFA261DA21300FE644C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE331B06261DA21300FE644C /* ViewController.swift in Sources */,
+				CE331B02261DA21300FE644C /* AppDelegate.swift in Sources */,
+				CE331B04261DA21300FE644C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE331B10261DA21500FE644C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE331B19261DA21500FE644C /* WYTwilight_Context_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE331B16261DA21500FE644C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE331AFD261DA21300FE644C /* WYTwilight_Context_Example */;
+			targetProxy = CE331B15261DA21500FE644C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE331B07261DA21300FE644C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE331B08261DA21300FE644C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE331B0C261DA21500FE644C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE331B0D261DA21500FE644C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE331B26261DA21500FE644C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE331B27261DA21500FE644C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE331B29261DA21500FE644C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C457EFF82E0D4A3D205EE8A /* Pods-WYTwilight_Context_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYTwilight_Context_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaels.WYTwilight-Context-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE331B2A261DA21500FE644C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E341F26C478381A9F24A4807 /* Pods-WYTwilight_Context_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYTwilight_Context_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaels.WYTwilight-Context-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE331B2C261DA21500FE644C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E231AA68F8C799216729A9 /* Pods-WYTwilight_Context_ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYTwilight_Context_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaels.WYTwilight-Context-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYTwilight_Context_Example.app/WYTwilight_Context_Example";
+			};
+			name = Debug;
+		};
+		CE331B2D261DA21500FE644C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8923762EBCE15B6E9914A95 /* Pods-WYTwilight_Context_ExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WYTwilight_Context_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaels.WYTwilight-Context-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYTwilight_Context_Example.app/WYTwilight_Context_Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE331AF9261DA21300FE644C /* Build configuration list for PBXProject "WYTwilight_Context_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE331B26261DA21500FE644C /* Debug */,
+				CE331B27261DA21500FE644C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE331B28261DA21500FE644C /* Build configuration list for PBXNativeTarget "WYTwilight_Context_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE331B29261DA21500FE644C /* Debug */,
+				CE331B2A261DA21500FE644C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE331B2B261DA21500FE644C /* Build configuration list for PBXNativeTarget "WYTwilight_Context_ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE331B2C261DA21500FE644C /* Debug */,
+				CE331B2D261DA21500FE644C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE331AF6261DA21300FE644C /* Project object */;
+}
